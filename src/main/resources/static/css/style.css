@@ -1,0 +1,47 @@
+body{
+    padding: 30px 200px;
+}
+
+span{
+    width: 100px;
+    margin-left: 20px;
+    border: solid black 2px;
+    padding-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.Gold {
+    border: solid 2px black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button{
+    background-color: white;
+    box-shadow: 2px 2px black;
+}
+
+.logs{
+    width: 100%;
+    min-height: 200px;
+    border: solid 2px black;
+    padding: 20px;
+}
+
+.success {
+    color: green;
+}
+
+.failed{
+    color: red;
+}
